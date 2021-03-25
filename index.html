@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+  <script src="./app.js" defer></script>
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <h2>Choose wisely... 5 points = WIN!</h2>
+  <ul class="choiceList">
+    <li class="rock"><i class="fas fa-hand-rock fa-3x"></i></li>
+    <li class="paper"><i class="fas fa-hand-paper fa-3x"></i></li>
+    <li class="scissors"><i class="fas fa-hand-scissors fa-3x"></i></i></li>
+  </ul>
+  <h3>Your choice: <span class="playerChoice"></span></h3>
+  <h3>Computer choice: <span class="computerChoice"></span></h3>
+  <div class="tie">It's a TIE!</div>
+  <p>Actual score:</p>
+  <div class="scores">
+    <p class="you">You: <span class="playerScore"></span></p>
+    <p class="computer">Computer: <span class="computerScore"></span></p>
+  </div>
+</body>
+</html>
